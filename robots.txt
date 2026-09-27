@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /demandes
 Disallow: /charte
 
-Sitemap: https://ateliersmusiquesurbaines.fr/sitemap.xml
+Sitemap: https://www.ateliersmusiquesurbaines.fr/sitemap.xml
