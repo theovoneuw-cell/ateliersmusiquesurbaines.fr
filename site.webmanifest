@@ -1,0 +1,12 @@
+{
+  "name": "Théo Von Euw · Ateliers Musiques Urbaines",
+  "short_name": "Théo Von Euw",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f6f1fb",
+  "theme_color": "#1f1747",
+  "icons": [
+    { "src": "assets/icone-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/icone-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

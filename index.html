@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Théo Von Euw · Ateliers Musiques Urbaines</title>
+<meta name="description" content="Ateliers de création en rap, RnB et musiques urbaines pour les établissements médico-sociaux et les espaces jeunes du Var, des Alpes-Maritimes, de Seine-et-Marne et alentours. Théo Von Euw, ingénieur du son et sound designer à Nice.">
+<meta name="theme-color" content="#f6f1fb">
+<link rel="canonical" href="https://ateliersmusiquesurbaines.fr/">
+<link rel="icon" href="favicon.svg?v=hh" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<!-- Aperçu quand le lien est partagé (mail, WhatsApp, LinkedIn, Facebook…) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Théo Von Euw · Ateliers Musiques Urbaines">
+<meta property="og:title" content="Ateliers Musiques Urbaines — médico-social &amp; espaces jeunes">
+<meta property="og:description" content="Ateliers de création en rap, RnB et musiques urbaines, dans vos locaux : établissements médico-sociaux, protection de l’enfance, espaces jeunes. Var, Alpes-Maritimes, Seine-et-Marne et alentours.">
+<meta property="og:url" content="https://ateliersmusiquesurbaines.fr/">
+<meta property="og:image" content="https://ateliersmusiquesurbaines.fr/assets/partage.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ateliers Musiques Urbaines — Théo Von Euw, ingénieur du son et sound designer">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Fiche d'identité lue par Google (résultats de recherche) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Ateliers Musiques Urbaines — Théo Von Euw",
+  "description": "Ateliers de création musicale en rap, RnB et musiques urbaines pour les établissements médico-sociaux, la protection de l’enfance et les espaces jeunes.",
+  "url": "https://ateliersmusiquesurbaines.fr/",
+  "image": "https://ateliersmusiquesurbaines.fr/assets/partage.png",
+  "logo": "https://ateliersmusiquesurbaines.fr/assets/icone-512.png",
+  "telephone": "+33777774557",
+  "email": "contactheo00@gmail.com",
+  "founder": { "@type": "Person", "name": "Théo Von Euw", "jobTitle": "Ingénieur du son et sound designer" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Nice", "addressRegion": "Provence-Alpes-Côte d’Azur", "addressCountry": "FR" },
+  "areaServed": [{ "@type": "AdministrativeArea", "name": "Var" }, { "@type": "AdministrativeArea", "name": "Alpes-Maritimes" }, { "@type": "AdministrativeArea", "name": "Seine-et-Marne" }, { "@type": "AdministrativeArea", "name": "Île-de-France" }],
+  "knowsAbout": ["Atelier rap", "Atelier RnB", "Musiques urbaines", "Médiation musicale", "Enregistrement", "Écriture de chansons"]
+}
+</script>
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<div class="fond" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+<a class="lien-evitement" href="#contenu">Aller au contenu</a>
+
+<header class="entete">
+  <div class="capsule">
+    <a class="marque" href="#haut" aria-label="Théo Von Euw, retour en haut">
+      <img class="logo" src="assets/charte/symbole.svg" alt="" width="42" height="42">
+      <span class="marque-texte"><b>Théo Von Euw</b><small>Ateliers Musiques Urbaines</small></span>
+    </a>
+    <div class="bascule" role="group" aria-label="Votre public">
+      <button type="button" data-choix="medico" aria-pressed="false">Médico-social</button>
+      <button type="button" data-choix="jeunes" aria-pressed="false">Animation</button>
+      <span class="bascule-curseur" aria-hidden="true"></span>
+    </div>
+    <button class="menu-mobile" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span aria-hidden="true"></span></button>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#publics">Pour vous</a>
+      <a href="#seance"><span data-pour="medico">La progression</span><span data-pour="tout">Les ateliers</span><span data-pour="jeunes">Le stage</span></a>
+      <a href="#parcours">Parcours</a>
+      <a href="#questions">Questions</a>
+      <a class="bouton" href="#contact">Me contacter</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <!-- Porte d'entrée : le visiteur choisit son côté -->
+  <section class="porte" id="accueil" aria-labelledby="titre-porte">
+    <div class="conteneur porte-interieur">
+      <div class="porte-tete">
+        <img class="logo-porte" src="assets/charte/symbole.svg" alt="" width="56" height="56">
+        <div>
+          <p class="porte-nom">Théo Von Euw</p>
+          <p class="porte-metier">Ateliers Musiques Urbaines · Rap, RnB, musiques urbaines · Var, Alpes-Maritimes, Seine-et-Marne et alentours</p>
+        </div>
+      </div>
+
+      <h2 id="titre-porte" class="porte-titre">Bonjour. <em>Vous travaillez…</em></h2>
+
+      <div class="portes">
+        <a class="verre battant medico" href="#medico" data-choix="medico">
+          <span class="battant-etiquette">Côté médico-social</span>
+          <strong>dans le médico-social ou la protection de l’enfance</strong>
+          <span class="battant-liste">IME · SESSAD · foyers de vie · MECS · foyers de l’enfance · lieux ressources</span>
+          <span class="battant-entrer">Entrer <i aria-hidden="true">→</i></span>
+        </a>
+        <a class="verre battant jeunes" href="#animation" data-choix="jeunes">
+          <span class="battant-etiquette">Côté animation</span>
+          <strong>dans l’animation ou un espace jeunes</strong>
+          <span class="battant-liste">Espaces jeunes · centres de loisirs · services jeunesse · de 8 à 18 ans et plus</span>
+          <span class="battant-entrer">Entrer <i aria-hidden="true">→</i></span>
+        </a>
+      </div>
+
+      <p class="porte-pied">Autre demande, ou simplement curieux ? <a href="#parcours" data-choix="tout">Voir tout le site</a> · <a href="tel:+33777774557">07 77 77 45 57</a></p>
+    </div>
+  </section>
+
+  <!-- Accroche : une grille de tuiles -->
+  <section class="accroche" id="haut">
+    <div class="conteneur tuiles">
+
+      <div class="verre tuile tuile-titre">
+        <div data-pour="medico">
+          <p class="puce"><span class="point" aria-hidden="true"></span>Ateliers Musiques Urbaines — Médico-social &amp; protection de l’enfance</p>
+          <h1>Un atelier musical qui avance au rythme de chacun, <em>séance après séance.</em></h1>
+          <p class="intro">J’interviens dans toutes sortes de structures, auprès d’enfants, d’adolescents et d’adultes porteurs d’un handicap mental ou physique, et auprès de jeunes en situation de fragilité sociale. Chacun avance à son rythme : de la mélodie fredonnée jusqu’à, parfois, sa propre chanson.</p>
+        </div>
+        <div data-pour="tout">
+          <p class="puce"><span class="point" aria-hidden="true"></span>Rap · RnB · Musiques urbaines — Var, Alpes-Maritimes, Seine-et-Marne et alentours</p>
+          <h1>J’installe un studio d’enregistrement dans votre structure, <em>le temps d’un atelier.</em></h1>
+          <p class="intro">Ingénieur du son et sound designer, j’anime depuis 2022 des ateliers de création musicale pour deux publics : les établissements médico-sociaux et de protection de l’enfance, et les espaces jeunes. Chaque participant écrit, chante ou vocalise, et s’entend enfin sur un vrai morceau.</p>
+        </div>
+        <div data-pour="jeunes">
+          <p class="puce"><span class="point" aria-hidden="true"></span>Ateliers Musiques Urbaines — Animation &amp; Espaces jeunes</p>
+          <h1>Vos jeunes créent leur propre morceau, <em>de la première note à l’enregistrement.</em></h1>
+          <p class="intro">Pendant les vacances scolaires ou le temps d’un week-end, j’installe un studio d’enregistrement dans votre structure. Le groupe choisit une instrumentale, invente ses mélodies, écrit ses paroles et enregistre : le temps du stage, un ou plusieurs morceaux voient le jour, en rap, en RnB ou dans le style qui lui ressemble.</p>
+        </div>
+      </div>
+
+      <div class="tuile tuile-cabine">
+        <div class="cabine-haut">
+          <span class="rec"><i></i>Studio mobile</span>
+          <span>Var, Alpes-Maritimes, Seine-et-Marne et alentours</span>
+        </div>
+        <div class="cabine-milieu">
+          <p class="cabine-titre">J’apporte tout le studio.</p>
+          <p class="cabine-texte">Le même matériel qu’en studio professionnel, installé en quelques minutes dans une salle ordinaire.</p>
+          <ul class="cabine-materiel">
+            <li>Ordinateur</li><li>Convertisseur</li><li>Micro</li><li>Trépied</li><li>Casque</li><li>Enceintes</li>
+          </ul>
+        </div>
+        <div class="cabine-bas">
+          <b>Rien à installer de votre côté</b>
+          <span>Une salle au calme, une prise et une table suffisent.</span>
+        </div>
+      </div>
+
+      <div class="verre tuile tuile-public">
+        <div data-pour="medico">
+          <p class="etiquette etiquette-medico">Vous êtes côté médico-social</p>
+          <p class="tuile-public-texte">Deux façons de travailler : un parcours progressif sur l’année pour un public porteur de handicap, et un atelier tourné vers l’écriture en foyer et en MECS.</p>
+        </div>
+        <div data-pour="jeunes">
+          <p class="etiquette etiquette-jeunes">Vous êtes côté animation</p>
+          <p class="tuile-public-texte">Un stage de création musicale, sur une durée définie avec vous (6 heures au minimum). À la fin, un vrai morceau, fait par vos jeunes.</p>
+        </div>
+        <div class="tuile-public-actions">
+          <a class="bouton" href="#publics">Voir la démarche <span class="fleche" aria-hidden="true">↓</span></a>
+          <button class="lien-changer" type="button" data-changer>Changer de côté</button>
+        </div>
+      </div>
+
+      <ul class="tuile-reperes" data-pour="jeunes">
+        <li class="verre tuile"><b>8 à 18 ans</b><span>et plus : des plus jeunes aux jeunes adultes</span></li>
+        <li class="verre tuile"><b>6 h minimum</b><span>la durée se définit avec vous, souvent pendant les vacances ou le week-end</span></li>
+        <li class="verre tuile"><b>8 à 10 jeunes</b><span>par groupe, pour que chacun ait vraiment sa place</span></li>
+        <li class="verre tuile"><b>1 morceau et plus</b><span>écouté ensemble en fin de stage, puis mixé en studio</span></li>
+      </ul>
+      <ul class="tuile-reperes" data-pour="medico">
+        <li class="verre tuile"><b>Tous âges</b><span>de l’enfance à l’âge adulte, avec ou sans handicap</span></li>
+        <li class="verre tuile"><b>Sur l’année</b><span>chaque semaine, tous les quinze jours ou une fois par mois</span></li>
+        <li class="verre tuile"><b>À son rythme</b><span>la mélodie d’abord, puis les mots, puis l’écriture</span></li>
+        <li class="verre tuile"><b>Tout est gardé</b><span>chaque enregistrement est conservé, depuis 2022</span></li>
+      </ul>
+      <ul class="tuile-reperes" data-pour="tout">
+        <li class="verre tuile"><b>Depuis 2022</b><span>des ateliers en IME, SESSAD, foyers et espaces jeunes</span></li>
+        <li class="verre tuile"><b>Deux publics</b><span>médico-social et animation, un accompagnement adapté à chacun</span></li>
+        <li class="verre tuile"><b>Chez vous</b><span>je me déplace dans le Var, les Alpes-Maritimes, en Seine-et-Marne et alentours</span></li>
+        <li class="verre tuile"><b>Sur devis</b><span>selon le rythme, la durée et le format</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Publics : seul le panneau du public choisi s’affiche -->
+  <section class="section" id="publics" aria-label="Votre public">
+    <div class="conteneur">
+      <!-- Médico-social & protection de l’enfance -->
+      <div class="panneau medico apparait" id="medico-social" data-pour="medico tout">
+        <div class="panneau-tete">
+          <div>
+            <p class="etiquette">Côté médico-social &amp; protection de l’enfance</p>
+            <h2>Un atelier qui s’adapte <em>à chaque personne.</em></h2>
+          </div>
+          <p>IME, SESSAD, foyers de vie, MECS, foyers de l’enfance, lieux ressources : j’interviens auprès de publics jeunes ou moins jeunes, porteurs d’un handicap mental ou physique, ou sans handicap mais en situation de fragilité sociale. Selon le public, l’atelier ne se construit pas de la même façon.</p>
+        </div>
+
+        <div class="parcours-duo">
+          <article class="verre parcours">
+            <p class="parcours-pour">Handicap mental ou physique</p>
+            <h3>Une progression sur l’année</h3>
+            <p>On travaille dans la durée, le plus souvent sur toute l’année scolaire (chaque semaine hors vacances, tous les quinze jours ou une fois par mois), pour pouvoir suivre les progrès de chacun. On avance par étapes, sans en brûler aucune :</p>
+            <ol class="marches">
+              <li><b>La topline</b><span>On commence uniquement par la mélodie de la voix : fredonner, vocaliser, improviser sur une instrumentale. Pas besoin de mots ni de savoir lire.</span></li>
+              <li><b>Les premiers mots</b><span>Quand la personne est prête, on pose des mots sur sa mélodie.</span></li>
+              <li><b>Sa propre chanson</b><span>Si c’est possible, on écrit et on crée sa propre musique.</span></li>
+            </ol>
+            <p class="parcours-note">Tout dépend du niveau de chacun : il n’y a pas d’étape obligatoire, et chaque progrès compte.</p>
+          </article>
+
+          <article class="verre parcours parcours-texte">
+            <p class="parcours-pour">Foyers, MECS, protection de l’enfance</p>
+            <h3>Des jeunes qui ont des choses à dire</h3>
+            <p>L’atelier ressemble à mes stages en espace jeunes, avec une place plus grande pour le texte. Ces jeunes ont besoin de s’exprimer et de reprendre confiance en eux : l’écriture devient un espace pour dire ce qu’ils vivent, avec leurs mots.</p>
+            <p>La mélodie garde toute sa place : on cherche la topline, on écrit, on enregistre, jusqu’à une vraie chanson. Sous forme de stage, ou une fois par semaine.</p>
+            <ul class="pastilles">
+              <li>S’exprimer</li>
+              <li>Être écouté</li>
+              <li>Reprendre confiance</li>
+              <li>Aller au bout d’un projet</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="panneau-grille">
+          <ol class="points">
+            <li class="verre">
+              <span class="points-num">A</span>
+              <div><h3>En lien avec l’équipe</h3>
+              <p>Objectifs, cadre et rythme se définissent avec l’équipe éducative, présente pendant la séance. Groupe ou passage individuel : on s’adapte aux personnes accueillies.</p></div>
+            </li>
+            <li class="verre">
+              <span class="points-num">B</span>
+              <div><h3>L’autotune comme appui</h3>
+              <p>Un effet de correction de la voix (celui qu’on entend dans beaucoup de morceaux actuels) la rend plus juste et plus assurée. S’entendre sonner comme dans les morceaux qu’on aime déclenche souvent la confiance.</p></div>
+            </li>
+            <li class="verre">
+              <span class="points-num">C</span>
+              <div><h3>Des repères stables</h3>
+              <p>Même déroulé d’une séance à l’autre, mêmes instrumentales retrouvées, installation toujours identique. Le cadre rassure et laisse la place à l’expression.</p></div>
+            </li>
+            <li class="verre">
+              <span class="points-num">D</span>
+              <div><h3>Un suivi des progrès</h3>
+              <p>Je conserve tous les enregistrements de l’année, et ceux des années passées : la structure peut retrouver une séance à tout moment. Un bilan est possible à la demande de l’équipe.</p></div>
+            </li>
+          </ol>
+
+          <aside class="colonne">
+            <div class="verre encart">
+              <h3>Ce que l’atelier travaille</h3>
+              <ul class="pastilles">
+                <li>Expression des émotions</li>
+                <li>Confiance en soi</li>
+                <li>Prise de parole</li>
+                <li>Écoute de l’autre</li>
+                <li>Attention partagée</li>
+                <li>Fierté d’une réalisation</li>
+              </ul>
+            </div>
+            <div class="verre encart">
+              <h3>Ils m’ont accueilli</h3>
+              <ul class="references">
+                <li>IME Val Paillon</li>
+                <li>SESSAD Val Paillon</li>
+                <li>Fondation Lenval<small>IES Les Chanterelles</small></li>
+                <li>Fondation de Nice<small>Lieu Ressource</small></li>
+                <li>AMAPEI<small>Foyer de vie</small></li>
+                <li>AAA<small>Autisme Apprendre Autrement</small></li>
+              </ul>
+            </div>
+            <p class="note">Ce n’est pas de la musicothérapie : c’est un atelier de création mené par un professionnel du son, qui vient compléter le travail de vos équipes.</p>
+          </aside>
+        </div>
+
+        <div class="panneau-action">
+          <a class="bouton" href="#contact" data-profil="medico">Proposer un atelier à ma structure <span class="fleche" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <!-- Animation & espaces jeunes -->
+      <div class="panneau jeunes apparait" id="espaces-jeunes" data-pour="jeunes tout">
+        <div class="panneau-tete">
+          <div>
+            <p class="etiquette">Côté animation &amp; espaces jeunes</p>
+            <h2>Un vrai morceau, fait par eux, <em>le temps d’un stage.</em></h2>
+          </div>
+          <p>Je viens avec mon studio pour un temps défini avec la structure, le plus souvent pendant les vacances scolaires ou le week-end. L’objectif est simple et motivant : qu’à la fin, un ou plusieurs morceaux existent, au format radio (courts et construits comme ceux qu’ils écoutent). Rap, RnB, musiques urbaines : le style suit les goûts du groupe, de 8 à 18 ans et plus.</p>
+        </div>
+
+        <div class="panneau-grille">
+          <div>
+            <ol class="points">
+              <li class="verre">
+                <span class="points-num">A</span>
+                <div><h3>Leurs goûts, leur style</h3>
+                <p>On part de ce qu’ils écoutent. Rap, RnB ou une autre couleur urbaine : c’est le groupe qui choisit la direction du morceau. Une seule règle pour les paroles : pas de grossièretés.</p></div>
+              </li>
+              <li class="verre">
+                <span class="points-num">B</span>
+                <div><h3>Les vraies étapes d’un artiste</h3>
+                <p>Choisir une instrumentale, trouver une topline, écrire, enregistrer : ils font ce que fait un artiste en studio, guidés par un professionnel.</p></div>
+              </li>
+              <li class="verre">
+                <span class="points-num">C</span>
+                <div><h3>Un objectif à tenir ensemble</h3>
+                <p>Le dernier jour, on écoute le morceau ensemble. Cette échéance soude le groupe : chacun apporte sa part pour que le projet aboutisse.</p></div>
+              </li>
+              <li class="verre">
+                <span class="points-num">D</span>
+                <div><h3>Une place pour chacun</h3>
+                <p>Écrire un couplet, trouver le refrain, chanter, rapper, donner son avis sur un enregistrement : tout le monde contribue, même sans avoir jamais tenu un micro.</p></div>
+              </li>
+            </ol>
+
+            <p class="etiquette formats-titre">Les formats · à définir avec vous, 6 h minimum</p>
+            <div class="formats">
+              <div class="verre format"><b>En immersion</b><span>Plusieurs jours d’affilée pour vivre la création d’un morceau de bout en bout.</span></div>
+              <div class="verre format"><b>En sessions</b><span>Quelques demi-journées réparties sur la semaine ou le week-end.</span></div>
+              <div class="verre format"><b>Sur mesure</b><span>La durée se voit avec vous, 6 heures au minimum. Plus de 10 jeunes ? On prévoit plus de temps, pour que chaque groupe ait le même temps au micro.</span></div>
+            </div>
+          </div>
+
+          <aside class="colonne">
+            <div class="verre encart">
+              <h3>Ce que les jeunes y gagnent</h3>
+              <ul class="pastilles">
+                <li>Esprit d’équipe</li>
+                <li>Confiance en soi</li>
+                <li>Ouverture culturelle</li>
+                <li>Créativité</li>
+                <li>Prise de parole</li>
+                <li>Fierté du résultat</li>
+              </ul>
+            </div>
+            <div class="verre encart">
+              <h3>Ils me font confiance</h3>
+              <ul class="references">
+                <li>SIVOM de Val de Banquière</li>
+                <li>Espace Jeunes de Sanary-sur-Mer</li>
+                <li>Break’Ados de Bormes-les-Mimosas</li>
+                <li>Structures Anima’Nice</li>
+                <li>Espace Jeunes d’Antibes</li>
+              </ul>
+            </div>
+            <p class="note">J’interviens dans les espaces jeunes, centres de loisirs et services jeunesse du Var, des Alpes-Maritimes, de Seine-et-Marne et alentours.</p>
+          </aside>
+        </div>
+
+        <div class="panneau-action">
+          <a class="bouton" href="#contact" data-profil="jeunes">Organiser un stage pour mes jeunes <span class="fleche" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- La séance : présentée comme une session dans un logiciel audio -->
+  <section class="section" id="seance">
+    <div class="conteneur">
+      <div data-pour="medico tout" class="bloc-seance">
+      <div class="section-tete section-tete-ligne apparait">
+        <div>
+          <p class="etiquette">Médico-social · La progression</p>
+          <h2>Pas à pas, <em>sur toute l’année.</em></h2>
+        </div>
+        <p>Pour un public porteur de handicap, chaque séance s’appuie sur la précédente. Certaines étapes prennent plus de temps que d’autres, et c’est normal : on suit le rythme de chacun.</p>
+      </div>
+
+      <div class="session verre apparait">
+        <div class="session-barre" aria-hidden="true">
+          <span class="session-nom">Une année d’atelier</span>
+          <span>Exemple de parcours : chacun avance à son rythme</span>
+          <span class="session-reglages">Chaque semaine, tous les 15 jours ou une fois par mois</span>
+        </div>
+
+        <div class="session-regle" aria-hidden="true"><span>Début de l’année</span><span>Fin de l’année</span></div>
+
+        <ol class="pistes">
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">01</span><span class="piste-nom">Mélodie</span></div>
+            <div class="piste-zone"><div class="clip clip-m1">
+              <h3>La topline, tout au long de l’année</h3>
+              <p>La topline, c’est la mélodie de la voix : l’air qu’on fredonne avant d’avoir les mots. On commence par elle, et elle reste la base de chaque séance.</p>
+            </div></div>
+          </li>
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">02</span><span class="piste-nom">Mots</span></div>
+            <div class="piste-zone"><div class="clip clip-m2">
+              <h3>Les premiers mots</h3>
+              <p>Quand c’est le moment, on pose quelques mots sur la mélodie.</p>
+            </div></div>
+          </li>
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">03</span><span class="piste-nom">Écrire</span></div>
+            <div class="piste-zone"><div class="clip clip-m3">
+              <h3>Sa propre chanson</h3>
+              <p>Si c’est possible : écrire et créer sa propre musique.</p>
+            </div></div>
+          </li>
+        </ol>
+        <span class="tete-lecture" aria-hidden="true"></span>
+      </div>
+      </div>
+
+      <div data-pour="jeunes tout" class="bloc-seance">
+      <div class="section-tete section-tete-ligne apparait">
+        <div>
+          <p class="etiquette">Animation · Le stage</p>
+          <h2>De l’instrumentale <em>au morceau fini.</em></h2>
+        </div>
+        <p>Les étapes d’un vrai artiste en studio. Sur un stage, elles se chevauchent et se répètent jusqu’à l’écoute du dernier jour.</p>
+      </div>
+
+      <div class="session verre apparait">
+        <div class="session-barre" aria-hidden="true">
+          <span class="session-nom">Le déroulé d’un stage</span>
+          <span>Du premier jour à l’écoute finale</span>
+          <span class="session-reglages">Rap · RnB · musiques urbaines</span>
+        </div>
+
+        <div class="session-regle" aria-hidden="true"><span>Premier jour</span><span>Dernier jour</span></div>
+
+        <ol class="pistes">
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">01</span><span class="piste-nom">Choisir</span></div>
+            <div class="piste-zone"><div class="clip clip-a1">
+              <h3>Choisir l’instrumentale</h3>
+              <p>J’arrive avec des instrumentales que j’ai composées. On les écoute ensemble et le groupe choisit celle qui lui donne envie d’écrire.</p>
+            </div></div>
+          </li>
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">02</span><span class="piste-nom">Mélodie</span></div>
+            <div class="piste-zone"><div class="clip clip-a2">
+              <h3>Trouver la topline</h3>
+              <p>La topline, c’est la mélodie de la voix : l’air qu’on fredonne avant même d’avoir les mots, celui du refrain qui reste en tête. On la cherche en improvisant sur l’instrumentale.</p>
+            </div></div>
+          </li>
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">03</span><span class="piste-nom">Écrire</span></div>
+            <div class="piste-zone"><div class="clip clip-a3">
+              <h3>Écrire les paroles</h3>
+              <p>Sur cette mélodie, chacun pose ses mots : ce qu’il vit, ce qu’il pense, ce qu’il a envie de dire. J’aide à construire couplets et refrain.</p>
+            </div></div>
+          </li>
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">04</span><span class="piste-nom">Enregistrer</span></div>
+            <div class="piste-zone"><div class="clip clip-a4">
+              <h3>Enregistrer</h3>
+              <p>Chacun passe au micro. Je dirige les prises comme en studio et j’assemble les voix sur l’instrumentale.</p>
+            </div></div>
+          </li>
+          <li class="piste">
+            <div class="piste-tete"><span class="piste-num">05</span><span class="piste-nom">Écouter</span></div>
+            <div class="piste-zone"><div class="clip clip-a5">
+              <h3>L’écoute finale</h3>
+              <p>On écoute ensemble une première version du morceau (le « prémix »). Je repars ensuite le mixer dans mon studio pour lui donner sa qualité finale.</p>
+            </div></div>
+          </li>
+        </ol>
+        <span class="tete-lecture" aria-hidden="true"></span>
+      </div>
+      </div>
+
+      <div class="seance-bas">
+        <figure class="citation apparait" data-pour="medico">
+          <blockquote>« Chaque progrès compte : une mélodie trouvée, un premier mot posé, une chanson écrite. »</blockquote>
+          <figcaption>La confiance en soi et le regard des autres comptent autant que le morceau.</figcaption>
+        </figure>
+        <figure class="citation apparait" data-pour="tout">
+          <blockquote>« L’objectif : produire de la musique, aboutie ou non, et surtout vivre un espace musical pendant un temps donné. »</blockquote>
+          <figcaption>La confiance en soi et le regard des autres comptent autant que le morceau.</figcaption>
+        </figure>
+        <figure class="citation apparait" data-pour="jeunes">
+          <blockquote>« L’objectif : qu’en un temps donné, un ou plusieurs morceaux voient le jour, faits par le groupe. »</blockquote>
+          <figcaption>Le dernier jour, on l’écoute ensemble. En chemin : l’esprit d’équipe, la confiance en soi et la découverte d’un métier culturel.</figcaption>
+        </figure>
+        <div class="verre materiel apparait">
+          <h3>Le matériel que j’apporte</h3>
+          <ul>
+            <li>Ordinateur portable</li>
+            <li>Convertisseur audionumérique</li>
+            <li>Casque audio</li>
+            <li>Microphone</li>
+            <li>Trépied</li>
+            <li>Paire d’enceintes</li>
+          </ul>
+          <p>Installé en quelques minutes dans une salle ordinaire, avec une prise et une table.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plaquette -->
+  <section class="section section-serree" aria-labelledby="titre-plaquette">
+    <div class="conteneur">
+      <div class="plaquette apparait">
+        <div>
+          <p class="etiquette">La plaquette</p>
+          <h2 id="titre-plaquette">À transmettre à votre direction <em>ou à votre équipe.</em></h2>
+          <p data-pour="tout">Une plaquette par public, en cinq pages : démarche, déroulé, organisation et contact.</p>
+          <p data-pour="medico">La plaquette médico-social &amp; protection de l’enfance : les deux façons de travailler, la progression, l’organisation, le contact.</p>
+          <p data-pour="jeunes">La plaquette des stages Animation &amp; Espaces jeunes : déroulé, formats, ce que les jeunes y gagnent, contact.</p>
+        </div>
+        <div class="actions">
+          <a class="bouton clair" data-pour="medico" href="assets/plaquette-medico-social.pdf" download>Télécharger le PDF <span class="fleche" aria-hidden="true">↓</span></a>
+          <a class="bouton clair" data-pour="tout" href="assets/plaquette-medico-social.pdf" download>Plaquette médico-social <span class="fleche" aria-hidden="true">↓</span></a>
+          <a class="bouton clair" data-pour="tout" href="assets/plaquette-animation-espaces-jeunes.pdf" download>Plaquette animation <span class="fleche" aria-hidden="true">↓</span></a>
+          <a class="bouton clair" data-pour="jeunes" href="assets/plaquette-animation-espaces-jeunes.pdf" download>Télécharger le PDF <span class="fleche" aria-hidden="true">↓</span></a>
+          <button class="bouton contour" type="button" data-imprimer>Imprimer cette page</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parcours : présenté comme la tracklist d'un vinyle -->
+  <section class="section" id="parcours">
+    <div class="conteneur">
+      <div class="section-tete section-tete-ligne apparait">
+        <div>
+          <p class="etiquette">Parcours</p>
+          <h2>Un métier de studio, <em>mis au service des ateliers.</em></h2>
+        </div>
+        <p>Diplômé en sound design, je travaille entre l’enregistrement d’artistes urbains, le mixage pour l’image et l’enseignement. Les ateliers sont nés de là : partager le quotidien d’un ingénieur du son avec celles et ceux qui n’ont jamais passé la porte d’un studio.</p>
+      </div>
+
+      <div class="disque">
+        <div class="verre face face-a apparait">
+          <div class="face-tete"><span class="face-disque" aria-hidden="true"></span><h3>Expérience</h3></div>
+          <ol class="tracklist">
+            <li>
+              <span class="t-num">01</span>
+              <div><h4>Professeur de sound design (création sonore)</h4><p class="lieu">Studio M, Nice</p>
+              <p>Cours de mixage, de création sonore pour l’image et de travaux pratiques en studio.</p></div>
+              <time>2023 →</time>
+            </li>
+            <li>
+              <span class="t-num">02</span>
+              <div><h4>Mixeur podcast</h4><p class="lieu">Med.IA Nature</p></div>
+              <time>2023 →</time>
+            </li>
+            <li>
+              <span class="t-num">03</span>
+              <div><h4>Ateliers de création de musiques urbaines</h4><p class="lieu">En indépendant — Var, Alpes-Maritimes, Seine-et-Marne et alentours</p>
+              <p>IME et SESSAD Val Paillon, Fondation Lenval, Fondation de Nice, AMAPEI, Autisme Apprendre Autrement, espaces jeunes et centres de loisirs.</p></div>
+              <time>2022 →</time>
+            </li>
+            <li>
+              <span class="t-num">04</span>
+              <div><h4>Ingénieur du son spécialisé rap et RnB</h4><p class="lieu">Vibes Studio, Paris</p>
+              <p>Enregistrement, direction artistique, mixage et mastering.</p></div>
+              <time>2022</time>
+            </li>
+            <li>
+              <span class="t-num">05</span>
+              <div><h4>Mixeur de spots de prévention</h4><p class="lieu">Gendarmerie nationale — MPF Hérault</p>
+              <p>Post-production sur Pro Tools, en binôme avec un second mixeur.</p></div>
+              <time>Ponctuel</time>
+            </li>
+            <li>
+              <span class="t-num">06</span>
+              <div><h4>Sound designer</h4><p class="lieu">Coffee Break, court-métrage d’animation</p></div>
+              <time>2021</time>
+            </li>
+            <li>
+              <span class="t-num">07</span>
+              <div><h4>Technicien et assistant son</h4><p class="lieu">Studio Replug, Le Cannet</p></div>
+              <time>2021–22</time>
+            </li>
+            <li>
+              <span class="t-num">08</span>
+              <div><h4>Ingénieur du son et mixeur</h4><p class="lieu">Dans mon studio, avec des artistes rap et RnB</p></div>
+              <time>2020 →</time>
+            </li>
+          </ol>
+        </div>
+
+        <div class="colonne">
+          <figure class="portrait-theo apparait">
+            <img src="assets/photos/portrait-studio.jpg" alt="Théo Von Euw en studio, devant des claviers et une table de mixage." width="1018" height="679" loading="lazy" decoding="async">
+            <figcaption><b>Théo Von Euw</b><span>Ingénieur du son &amp; sound designer</span></figcaption>
+          </figure>
+          <div class="verre face face-b apparait">
+            <div class="face-tete"><span class="face-disque" aria-hidden="true"></span><h3>Formation</h3></div>
+            <ol class="tracklist">
+              <li><span class="t-num">01</span><div><h4>Bachelor Sound Designer</h4><p class="lieu">ACFA Multimédia, Montpellier</p></div><time>2022</time></li>
+              <li><span class="t-num">02</span><div><h4>Licence d’espagnol</h4><p class="lieu">Université Nice Sophia Antipolis</p></div><time>2019</time></li>
+              <li><span class="t-num">03</span><div><h4>Baccalauréat littéraire</h4><p class="lieu">Lycée Jean Aicard, Hyères</p></div><time>2016</time></li>
+            </ol>
+          </div>
+          <div class="verre encart apparait">
+            <h3>Logiciels et matériel</h3>
+            <ul class="pastilles">
+              <li>Pro Tools</li><li>FL Studio</li><li>Logic Pro</li><li>Table de mixage analogique</li>
+            </ul>
+          </div>
+          <dl class="verre fiche apparait">
+            <dt>Basé à</dt><dd>Nice</dd>
+            <dt>Statut</dt><dd>Auto-entrepreneur depuis 2022</dd>
+            <dt>Mobilité</dt><dd>Permis B, véhiculé</dd>
+            <dt>Langues</dt><dd>Français, anglais pro, espagnol</dd>
+            <dt>Artiste</dt><dd>Auteur, interprète et compositeur de mélodies</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section class="section" id="questions">
+    <div class="conteneur faq-grille">
+      <div class="section-tete apparait">
+        <p class="etiquette">Questions fréquentes</p>
+        <h2>Avant de <em>se lancer.</em></h2>
+        <p>Une autre question ? Le plus simple reste de m’appeler au <a href="tel:+33777774557">07 77 77 45 57</a>.</p>
+      </div>
+      <div class="faq apparait">
+        <details class="verre">
+          <summary>Faut-il savoir chanter ou rapper ?</summary>
+          <p>Non. L’atelier accueille tout le monde, y compris celles et ceux qui n’ont jamais tenu un micro. On part de ce que chacun peut et veut donner, même quelques mots ou quelques sons.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>Combien de temps dure un stage ?</summary>
+          <p>La durée se définit avec chaque structure, selon votre planning et votre groupe, avec un minimum de 6 heures pour que le morceau ait le temps de naître. Le plus souvent, les stages ont lieu pendant les vacances scolaires ou le week-end.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>Pour quel âge, et combien de jeunes ?</summary>
+          <p>De 8 à 18 ans, et au-delà pour les jeunes adultes. L’idéal est un groupe de 8 à 10 jeunes. S’ils sont plus nombreux, on prévoit plus de temps, pour que chaque groupe ait le même temps au micro.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>Que se passe-t-il à la fin du stage ?</summary>
+          <p>Le dernier jour, on écoute ensemble une première version du morceau, ce qu’on appelle le « prémix ». Je repars ensuite le mixer dans mon studio : c’est l’étape qui équilibre les voix et l’instrumentale et donne au morceau sa qualité finale.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>Et les paroles ?</summary>
+          <p>Les jeunes écrivent sur ce qu’ils vivent et ce qu’ils ont envie de dire. Une règle est posée dès le début : pas de grossièretés. J’accompagne l’écriture pour que chacun trouve ses mots.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>C’est quoi, une topline ?</summary>
+          <p>C’est la mélodie chantée ou rappée d’un morceau : l’air qu’on retient, celui qu’on fredonne sans les paroles. Dans un refrain, c’est ce qui reste en tête. On la cherche avant d’écrire, pour que les mots tombent juste.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>Quel style de musique ?</summary>
+          <p>Rap, RnB et musiques urbaines, selon les goûts du groupe. C’est le groupe qui choisit l’instrumentale et la direction du morceau.</p>
+        </details>
+        <details class="verre" data-pour="jeunes tout">
+          <summary>Que veut dire « format radio » ?</summary>
+          <p>Un morceau court et construit comme ceux qu’on entend à la radio ou sur les plateformes d’écoute : des couplets et un refrain qui revient. C’est un format concret, motivant, et réaliste à réaliser le temps d’un stage.</p>
+        </details>
+        <details class="verre" data-pour="medico tout">
+          <summary>Comment adaptez-vous l’atelier au handicap ?</summary>
+          <p>On commence uniquement par la topline, la mélodie de la voix, sans mots. Quand la personne est prête, on ajoute des mots, puis, si c’est possible, on écrit et on crée sa propre musique. Tout dépend du niveau de chacun, et on suit les progrès au fil de l’année.</p>
+        </details>
+        <details class="verre" data-pour="medico tout">
+          <summary>Et en foyer ou en MECS ?</summary>
+          <p>L’atelier ressemble à mes stages en espace jeunes, avec une place plus grande pour l’écriture : ces jeunes ont besoin de s’exprimer et de reprendre confiance en eux. La mélodie et l’enregistrement gardent toute leur place. Il se déroule sous forme de stage, ou une fois par semaine.</p>
+        </details>
+        <details class="verre" data-pour="medico tout">
+          <summary>Est-ce de la musicothérapie ?</summary>
+          <p>Non. C’est un atelier de création musicale mené par un professionnel du son. Il ne remplace aucun soin : il vient compléter le travail de vos équipes, avec qui les objectifs sont définis.</p>
+        </details>
+        <details class="verre" data-pour="medico tout">
+          <summary>À quel rythme, et avec combien de participants ?</summary>
+          <p>Le plus souvent sur l’année scolaire : chaque semaine (hors vacances scolaires), tous les quinze jours ou une fois par mois, selon ce qui convient à la structure. En foyer ou en MECS, l’atelier peut aussi prendre la forme d’un stage. La taille du groupe n’est pas un problème, puisque l’équipe encadrante est présente ; on peut aussi prévoir des passages individuels.</p>
+        </details>
+        <details class="verre" data-pour="medico tout">
+          <summary>Comment suivez-vous les progrès ?</summary>
+          <p>Chaque séance s’appuie sur la précédente. Je conserve tous les enregistrements de l’année, et même ceux de mes premières années d’atelier : si la structure a besoin de retrouver une séance, c’est possible. Je peux aussi faire un bilan à la demande de l’équipe.</p>
+        </details>
+        <details class="verre">
+          <summary>Que doit-on prévoir sur place ?</summary>
+          <p>Une salle au calme avec une prise électrique et une table. J’apporte tout le reste : ordinateur, micro, casque, enceintes et convertisseur.</p>
+        </details>
+        <details class="verre">
+          <summary>Où intervenez-vous ?</summary>
+          <p>Dans le Var, les Alpes-Maritimes, en Seine-et-Marne et alentours, directement dans vos locaux. Pour un autre secteur, écrivez-moi : on regarde ensemble ce qui est possible.</p>
+        </details>
+        <details class="verre">
+          <summary>Comment se passent le devis et la facturation ?</summary>
+          <p>Je vous envoie un devis selon le nombre de séances et le format retenu. En tant qu’auto-entrepreneur, je facture directement la structure.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="conteneur contact-grille">
+      <div class="contact-cote apparait">
+        <p class="etiquette">Contact</p>
+        <h2>Parlons de <em>votre projet.</em></h2>
+        <p>Décrivez-moi votre structure et votre public : je reviens vers vous pour en discuter et vous proposer un format et un devis.</p>
+        <ul class="coordonnees">
+          <li class="verre"><small>Téléphone</small><a href="tel:+33777774557">07 77 77 45 57</a></li>
+          <li class="verre"><small>Courriel</small><a href="mailto:contactheo00@gmail.com">contactheo00@gmail.com</a></li>
+          <li class="verre"><small>Secteur</small><span>Var, Alpes-Maritimes, Seine-et-Marne et alentours</span></li>
+        </ul>
+      </div>
+
+      <div class="verre formulaire apparait" id="formulaire">
+        <form novalidate>
+          <fieldset>
+            <legend>Vous êtes</legend>
+            <div class="segments">
+              <label><input type="radio" name="profil" value="medico"><span>Établissement médico-social</span></label>
+              <label><input type="radio" name="profil" value="jeunes"><span>Espace jeunes, animation</span></label>
+              <label><input type="radio" name="profil" value="autre"><span>Autre demande</span></label>
+            </div>
+          </fieldset>
+
+          <div class="champs">
+            <label><span>Nom et prénom</span><input type="text" name="nom" autocomplete="name" required></label>
+            <label><span>Fonction <i>(facultatif)</i></span><input type="text" name="fonction" autocomplete="organization-title" placeholder="Éducatrice, coordinateur…"></label>
+            <label><span>Structure</span><input type="text" name="structure" autocomplete="organization"></label>
+            <label><span>Ville</span><input type="text" name="ville" autocomplete="address-level2"></label>
+            <label><span>Courriel</span><input type="email" name="email" autocomplete="email"></label>
+            <label><span>Téléphone</span><input type="tel" name="telephone" autocomplete="tel"></label>
+            <label><span>Public concerné <i>(facultatif)</i></span><input type="text" name="public" placeholder="Âge, nombre de participants…"></label>
+            <label><span>Période souhaitée <i>(facultatif)</i></span><input type="text" name="periode" placeholder="Vacances de février, à l’année…"></label>
+            <label class="large"><span>Votre message</span><textarea name="message" required></textarea></label>
+            <label class="pot-de-miel" aria-hidden="true">Site web<input type="text" name="site" tabindex="-1" autocomplete="off"></label>
+          </div>
+
+          <div class="message-erreur" role="alert" hidden></div>
+
+          <div class="formulaire-pied">
+            <small>Un courriel ou un téléphone suffit pour que je vous réponde. Vos coordonnées ne servent qu’à ça : <a href="mentions-legales#donnees">en savoir plus</a>.</small>
+            <button class="bouton" type="submit">Envoyer ma demande <span class="fleche" aria-hidden="true">→</span></button>
+          </div>
+        </form>
+
+        <div class="confirmation" hidden>
+          <span class="coche" aria-hidden="true">✓</span>
+          <h3>Merci, c’est bien reçu.</h3>
+          <p>Je reviens vers vous rapidement. Si vous préférez garder une trace dans votre boîte mail, vous pouvez aussi m’envoyer la demande par courriel.</p>
+          <div class="actions">
+            <a class="bouton" data-mailto href="mailto:contactheo00@gmail.com">L’envoyer aussi par courriel</a>
+            <button class="bouton contour-sombre" type="button" data-nouvelle>Nouvelle demande</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="bouton-rec" href="#contact"><span class="rec-point" aria-hidden="true"></span>Demander un atelier</a>
+
+<footer class="pied">
+  <div class="conteneur">
+    <div class="verre pied-capsule">
+      <div>
+        <b>Théo Von Euw</b>
+        <p>Mixeur son &amp; sound designer · Ateliers Musiques Urbaines</p>
+      </div>
+      <div class="pied-droite">
+        <p><a href="tel:+33777774557">07 77 77 45 57</a> · <a href="mailto:contactheo00@gmail.com">contactheo00@gmail.com</a></p>
+        <p>Auto-entrepreneur · SIRET 910 080 589 00013 · <a href="mentions-legales">Mentions légales &amp; confidentialité</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
